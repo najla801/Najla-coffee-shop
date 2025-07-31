@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Najla's Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>☕ Welcome to Najla's Coffee Shop ☕</h1>
+  <p>Select your coffee:</p>
+  
+  <select id="coffeeSelect">
+    <option value="3">Espresso - 3</option>
+    <option value="4">Latte -4</option>
+    <option value="5">Cappuccino - 5</option>
+  </select>
+
+  <p>Quantity:</p>
+  <input type="number" id="quantity" value="1" min="1">
+
+  <button onclick="calculateTotal()">Calculate Total</button>
+
+  <h2 id="totalPrice"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
